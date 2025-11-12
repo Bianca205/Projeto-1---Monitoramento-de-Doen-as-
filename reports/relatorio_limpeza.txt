@@ -1,0 +1,74 @@
+=== INICIANDO LIMPEZA ===
+Shape antes da limpeza: (1025, 14)
+Shape após remover duplicatas exatas: (302, 14)
+
+Valores ausentes por coluna:
+age         0
+sex         0
+cp          0
+trestbps    0
+chol        0
+fbs         0
+restecg     0
+thalach     0
+exang       0
+oldpeak     0
+slope       0
+ca          0
+thal        0
+target      0
+dtype: int64
+
+Balanceamento da variável target:
+target
+1    0.543046
+0    0.456954
+Name: proportion, dtype: float64
+
+=== ANÁLISE DE QUALIDADE ===
+Valores únicos por coluna:
+age: 41 valores únicos
+sex: 2 valores únicos
+cp: 4 valores únicos
+trestbps: 49 valores únicos
+chol: 152 valores únicos
+fbs: 2 valores únicos
+restecg: 3 valores únicos
+thalach: 91 valores únicos
+exang: 2 valores únicos
+oldpeak: 40 valores únicos
+slope: 3 valores únicos
+ca: 5 valores únicos
+thal: 4 valores únicos
+target: 2 valores únicos
+
+Estatísticas descritivas:
+             age         sex          cp    trestbps  ...       slope          ca        thal      target
+count  302.00000  302.000000  302.000000  302.000000  ...  302.000000  302.000000  302.000000  302.000000     
+mean    54.42053    0.682119    0.963576  131.602649  ...    1.397351    0.718543    2.314570    0.543046     
+std      9.04797    0.466426    1.032044   17.563394  ...    0.616274    1.006748    0.613026    0.498970     
+min     29.00000    0.000000    0.000000   94.000000  ...    0.000000    0.000000    0.000000    0.000000     
+25%     48.00000    0.000000    0.000000  120.000000  ...    1.000000    0.000000    2.000000    0.000000     
+50%     55.50000    1.000000    1.000000  130.000000  ...    1.000000    0.000000    2.000000    1.000000     
+75%     61.00000    1.000000    2.000000  140.000000  ...    2.000000    1.000000    3.000000    1.000000     
+max     77.00000    1.000000    3.000000  200.000000  ...    2.000000    4.000000    3.000000    1.000000     
+
+[8 rows x 14 columns]
+Valores de idade suspeitos: 0
+Valores de pressão arterial suspeitos: 0
+Valores de colesterol suspeitos: 0
+Valores de frequência cardíaca máxima suspeitos: 0
+Valores de depressão ST suspeitos: 0
+
+✅ Dados limpos salvos em: c:\Users\gyova\OneDrive\Documentos\Projeto 1 - Monitoramento de Doenças\data\processed\heart_cleaned.csv
+
+=== RESUMO DA LIMPEZA ===
+Dataset original: (1025, 14)
+Dataset limpo: (302, 14)
+Duplicatas removidas: 723
+Redução de: 70.54%
+
+=== PRÓXIMOS PASSOS ===
+1. Os dados limpos estão em: data/processed/heart_cleaned.csv
+2. Próxima fase: Feature engineering e modelagem
+3. Tamanho final do dataset: (302, 14)

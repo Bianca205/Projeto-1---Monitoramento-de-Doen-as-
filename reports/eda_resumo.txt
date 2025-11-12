@@ -1,0 +1,20 @@
+=== RESUMO EXECUTIVO DA ANÁLISE EXPLORATÓRIA DE DADOS ===
+------------------------------------------------------------
+INFORMAÇÕES GERAIS:
+Total de linhas: 1025
+Total de colunas: 14
+Colunas numéricas: 14
+Colunas categóricas: 0
+------------------------------------------------------------
+VALORES AUSENTES:
+Total de valores ausentes: 0
+Percentual de ausentes: 0.00%
+------------------------------------------------------------
+DUPLICATAS:
+Linhas duplicadas: 723
+Percentual de duplicadas: 70.54%
+------------------------------------------------------------
+BALANCEAMENTO DA VARIÁVEL TARGET:
+Classe 1: 51.32%
+Classe 0: 48.68%
+------------------------------------------------------------

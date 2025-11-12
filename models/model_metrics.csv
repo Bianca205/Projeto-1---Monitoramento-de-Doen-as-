@@ -1,0 +1,2 @@
+model_name,accuracy,auc,cv_score,features_used
+SVM,0.8032786885245902,0.8506493506493507,0.8089285714285716,28
